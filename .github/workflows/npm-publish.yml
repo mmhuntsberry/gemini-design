@@ -27,7 +27,7 @@ jobs:
         run: |
           cd libs/styles
           npm run build
-          npm publish
+          npm publish --access public
 
       - name: Build and publish @gemini-design/components
         env:
@@ -35,4 +35,4 @@ jobs:
         run: |
           cd ../components
           npm run build
-          npm publish
+          npm publish --access public
