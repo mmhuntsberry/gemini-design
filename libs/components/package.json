@@ -1,6 +1,6 @@
 {
   "name": "gemini-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/libs/components/index.js",
   "types": "dist/libs/components/index.d.ts",
   "exports": {

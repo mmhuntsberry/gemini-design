@@ -39,7 +39,7 @@
     },
     "storybook": {
       "executor": "@nx/storybook:storybook",
-      "styles": ["dist/libs/styles/src/index.css"],
+      "styles": ["/libs/styles/src/index.css"],
 
       "options": {
         "port": 4400,
