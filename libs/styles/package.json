@@ -1,0 +1,12 @@
+{
+  "name": "@gemini-design/styles",
+  "version": "0.0.1",
+  "main": "dist/libs/styles/index.js",
+  "types": "dist/libs/styles/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
