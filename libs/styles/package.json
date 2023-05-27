@@ -4,6 +4,6 @@
   "type": "module",
   "main": "./index.css",
   "scripts": {
-    "build": "mkdir -p ../../dist/libs/styles && cp ./src/index.css ../../dist/libs/styles/index.css"
+    "build": "mkdir -p ../../dist/libs/styles && cp ./src/index.css ../../dist/libs/styles/index.css && cp ./package.json ../../dist/libs/styles/package.json"
   }
 }
