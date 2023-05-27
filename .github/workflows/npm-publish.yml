@@ -21,17 +21,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and publish @gemini-design/components
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PROJECT_GEMINI }}
-        run: |
-          npm run build:components
-          cd dist/libs/components
-          npm publish --access public
+      # - name: Build and publish @gemini-design/components
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.PROJECT_GEMINI }}
+      #   run: |
+      #     npm run build:components
+      #     cd dist/libs/components
+      #     npm publish --access public
 
       - name: Build and publish @gemini-design/styles
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PROJECT_GEMINI }}
         run: |
+          npm run build:styles
           cd dist/libs/styles
           npm publish --access public
