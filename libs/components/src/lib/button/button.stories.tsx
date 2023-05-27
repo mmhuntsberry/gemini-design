@@ -10,5 +10,6 @@ export default Story;
 export const Primary = {
   args: {
     children: 'Button',
+    size: 'small',
   },
 };

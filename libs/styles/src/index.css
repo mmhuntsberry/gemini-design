@@ -1,0 +1,111 @@
+:root {
+  /* Global Tokens */
+  /* Colors */
+
+  /* Fonts */
+
+  /* Sizing */
+  --size-00: 0rem;
+  --size-01: 0.063rem;
+  --size-02: 0.125rem;
+  --size-04: 0.25rem;
+  --size-06: 0.375rem;
+  --size-08: 0.5rem;
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-22: 1.375rem;
+  --size-24: 1.5rem;
+  --size-26: 1.625rem;
+  --size-28: 1.75rem;
+  --size-30: 1.875rem;
+  --size-32: 2rem;
+  --size-34: 2.125rem;
+  --size-36: 2.25rem;
+  --size-38: 2.375rem;
+  --size-40: 2.5rem;
+  --size-42: 2.625rem;
+  --size-44: 2.75rem;
+  --size-46: 2.875rem;
+  --size-48: 3rem;
+  --size-50: 3.125rem;
+  --size-52: 3.25rem;
+  --size-54: 3.375rem;
+  --size-56: 3.5rem;
+  --size-58: 3.625rem;
+  --size-60: 3.75rem;
+  --size-62: 3.875rem;
+  --size-64: 4rem;
+  --size-66: 4.125rem;
+  --size-68: 4.25rem;
+  --size-70: 4.375rem;
+  --size-72: 4.5rem;
+  --size-74: 4.625rem;
+  --size-76: 4.75rem;
+  --size-78: 4.875rem;
+  --size-80: 5rem;
+  --size-82: 5.125rem;
+  --size-84: 5.25rem;
+  --size-86: 5.375rem;
+  --size-88: 5.5rem;
+  --size-90: 5.625rem;
+  --size-92: 5.75rem;
+  --size-94: 5.875rem;
+  --size-96: 6rem;
+
+  /* Alias Tokens */
+  /* Spacing */
+  --spacing-none: var(--size-00);
+  --spacing-xxsmall: var(--size-04);
+  --spacing-xsmall: var(--size-08);
+  --spacing-small: var(--size-12);
+  --spacing-medium: var(--size-16);
+  --spacing-large: var(--size-20);
+  --spacing-xlarge: var(--size-24);
+  --spacing-xxlarge: var(--size-28);
+  --spacing-huge: var(--size-32);
+  --spacing-massive: var(--size-36);
+  --spacing-xmassive: var(--size-40);
+  --spacing-xxmassive: var(--size-44);
+  --spacing-giant: var(--size-48);
+
+  /* Font Sizes */
+  --font-size-xxsmall: var(--size-10);
+  --font-size-xsmall: var(--size-12);
+  --font-size-small: var(--size-14);
+  --font-size-medium: var(--size-16);
+  --font-size-large: var(--size-18);
+  --font-size-xlarge: var(--size-28);
+  --font-size-xxlarge: var(--size-36);
+
+  /* Font Weights */
+
+  /* Letter Spacing */
+
+  /* Line Heights */
+
+  /* Line Style */
+
+  /* Radii */
+
+  /* Border Color */
+
+  /* Border  Radius */
+
+  /* Border Width */
+
+  /* Palette Colors */
+  --palette-black: #000000;
+  --palette-blue: #0000ff;
+  --palette-gray: #808080;
+  --palette-green: #00ff00;
+  --palette-pink: #ffc0cb;
+  --palette-red: #ff0000;
+  --palette-white: #ffffff;
+  --palette-yellow: #ffff00;
+
+  /* Typography */
+}
