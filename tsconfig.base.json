@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "gemini-components": ["libs/components/src/index.ts"],
-      "gemini-foundation": ["libs/styles/src/index.css"]
+      "gemini-foundations": ["libs/styles/src/index.css"]
     }
   },
   "exclude": ["node_modules", "tmp"]
