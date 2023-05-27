@@ -31,7 +31,7 @@ jobs:
 
       - name: Build and publish @gemini-design/styles
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.PROJECT_GEMINI }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm run build:styles
           cd dist/libs/styles
