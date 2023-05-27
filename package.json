@@ -1,10 +1,11 @@
 {
-  "name": "@gemini-design/source",
+  "name": "gemini-design",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "build:components": "npx nx build components",
-    "build:styles": "npx nx build styles"
+    "build:styles": "npx nx build styles",
+    "dev:storybook": "npx nx run components:storybook"
   },
   "private": true,
   "dependencies": {

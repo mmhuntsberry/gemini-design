@@ -1,5 +1,5 @@
 {
-  "name": "@gemini-design/components",
+  "name": "gemini-components",
   "version": "0.0.1",
   "main": "dist/libs/components/index.js",
   "types": "dist/libs/components/index.d.ts",
@@ -10,6 +10,6 @@
     }
   },
   "dependencies": {
-    "@gemini-design/styles": "*"
+    "gemini-styles": "*"
   }
 }
