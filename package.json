@@ -2,7 +2,10 @@
   "name": "@gemini-design/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:components": "npx nx build components",
+    "build:styles": "npx nx build styles"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.10.6",
