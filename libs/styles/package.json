@@ -1,5 +1,5 @@
 {
-  "name": "@gemini-design/styles",
+  "name": "gemini-styles",
   "version": "0.0.1",
   "type": "module",
   "main": "./index.css",
