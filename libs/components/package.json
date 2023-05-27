@@ -10,6 +10,6 @@
     }
   },
   "dependencies": {
-    "gemini-styles": "*"
+    "gemini-core": "*"
   }
 }
