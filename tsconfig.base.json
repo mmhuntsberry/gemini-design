@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gemini-design/components": ["libs/components/src/index.ts"],
-      "@gemini-design/styles": ["libs/styles/src/index.css"]
+      "gemini-components": ["libs/components/src/index.ts"],
+      "gemini-foundation": ["libs/styles/src/index.css"]
     }
   },
   "exclude": ["node_modules", "tmp"]
